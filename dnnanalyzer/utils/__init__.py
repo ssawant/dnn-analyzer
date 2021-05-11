@@ -29,11 +29,6 @@ def to_list(l):
         return l
 
 
-###############################################################################
-###############################################################################
-###############################################################################
-
-
 class BatchSequence(tensorflow.keras.utils.Sequence):
     """Batch sequence generator.
     Take a (list of) input tensors and a batch size
